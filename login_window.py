@@ -5,7 +5,7 @@ import sqlite3
 import os
 from admin_window import Ui_Admin
 from user_window import Ui_User
-
+from supervisor_window import Ui_Supervisor
 
 class Ui_Login(object):
     # Create Success Messagebox
@@ -97,6 +97,9 @@ class Ui_Login(object):
                 if access_level == 0:
                     print('User Access')
                     self.open_user(username)
+                if access_level == 1:
+                    print('Supervisor Access')
+                    self.open_supervisor(username)
 
         else:
             self.warning("Failed to Connect", "Please check your credentials: Invalid Username or Password.")
@@ -114,6 +117,20 @@ class Ui_Login(object):
         self.ui.set_private(username)
         self.ui.print_private()
         Login.hide()
+
+
+    # Open supervisor window function if access_level is 1
+    def open_supervisor(self, username):
+        self.window = QtWidgets.QMainWindow()
+        self.ui = Ui_Supervisor()
+        self.ui.setupUi(self.window)
+        self.window.show()
+        self.ui.set_private(username)
+        self.ui.show_private()
+        self.ui.show_areas()
+        self.ui.load_equipment_data()
+        Login.hide()
+
 
     # Open user window function if access_level is 0
     def open_user(self,username):
