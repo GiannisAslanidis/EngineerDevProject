@@ -630,7 +630,7 @@ class Ui_User(object):
         self.equipment_search_button_2.clicked.connect(self.load_equipment_data)
         self.equip_search_info_label.setText(_translate("User", "Για αναζήτηση εισάγετε κάποια πληροφορία στα διπλανά πλαίσια."))
         self.equipment_search_button_2.setText(_translate("User", "Επαναφόρτωση"))
-        self.search_access_ids_label.setText(_translate("User", "Χώροι Πρόσβασης για Αναζήτηση :"))
+        self.search_access_ids_label.setText(_translate("User", "Χώροι Πρόσβασης:"))
         self.label.setText(_translate("User", "Ως απλός χρήστης έχετε πρόσβαση μόνο σε λειτουργία αναζήτησης,σύμφωνα \n"
 "με τα δικαιώματα χώρων που σας έχουν δωθεί."))
 
