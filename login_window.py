@@ -113,6 +113,7 @@ class Ui_Login(object):
         self.ui.load_users_Data()
         self.ui.load_areas_Data()
         self.ui.load_supervisor_Data()
+        self.ui.load_equipment_data()
         self.ui.tabWidget.setCurrentIndex(0)
         self.ui.set_private(username)
         self.ui.print_private()

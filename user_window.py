@@ -149,6 +149,9 @@ class Ui_User(object):
                             for word in item_keywords:
                                 if word in target_keywords:
                                     matching_items.append(item[0])
+                for item in matching_items:
+                    if matching_items.count(item)>1:
+                        matching_items.remove(item)
                 items_count = len(matching_items)
                 self.equipment_table.setRowCount(items_count)
                 if items_count > 0:

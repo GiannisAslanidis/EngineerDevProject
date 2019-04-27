@@ -153,6 +153,11 @@ class Ui_Supervisor(object):
                             for word in item_keywords:
                                 if word in target_keywords:
                                     matching_items.append(item[0])
+
+                for item in matching_items:
+                    if matching_items.count(item) > 1:
+                        matching_items.remove(item)
+
                 items_count = len(matching_items)
                 self.equipment_table.setRowCount(items_count)
                 if items_count > 0:
@@ -391,9 +396,8 @@ class Ui_Supervisor(object):
                 for area in allowed_areas:
                     result = cur.execute("SELECT * FROM yliko_xwrwn WHERE ID_ylikou=:idyl AND ID_Xwrou=:idx",
                                          {'idyl': id_ylikou, 'idx': area})
-                if (len(cur.fetchall())) > 0:
-                    exists += 1
-
+                    if (len(cur.fetchall())) > 0:
+                        exists += 1
             if exists > 0:
 
                 self.window = QtWidgets.QMainWindow()
