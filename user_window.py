@@ -45,7 +45,8 @@ class Ui_User(object):
             with conn:
                 cur.execute("SELECT onoma_xwrou FROM xwroi_idrymatos WHERE ID_xwrou=:idx", {'idx': id})
                 result2 = cur.fetchone()
-                area_names_list.append(result2[0])
+                if result2 :
+                    area_names_list.append(result2[0])
         if 'None' not in areas_list:
             text_string = ''
             for i in range(0,len(areas_list)):
