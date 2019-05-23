@@ -21,7 +21,7 @@ class Ui_Supervisor(object):
     def show_private(self):
         self.User_name_Label.setText(Ui_Supervisor._UserID)
 
-    #Get user private variables
+    # Get user private variables
     def set_private(self, val):
         Ui_Supervisor._UserID = val
         conn = sqlite3.connect("sqlite/application_database.db")
@@ -660,13 +660,13 @@ class Ui_Supervisor(object):
         self.equipment_search_button = QtWidgets.QPushButton(self.centralwidget)
         self.equipment_search_button.setGeometry(QtCore.QRect(10, 200, 181, 31))
         font = QtGui.QFont()
-        font.setPointSize(10)
+        font.setPointSize(8)
         self.equipment_search_button.setFont(font)
         self.equipment_search_button.setObjectName("equipment_search_button")
         self.add_equipment_button = QtWidgets.QPushButton(self.centralwidget)
         self.add_equipment_button.setGeometry(QtCore.QRect(270, 200, 181, 31))
         font = QtGui.QFont()
-        font.setPointSize(10)
+        font.setPointSize(8)
         self.add_equipment_button.setFont(font)
         self.add_equipment_button.setObjectName("add_equipment_button")
         self.search_access_ids_label = QtWidgets.QLabel(self.centralwidget)
@@ -743,7 +743,7 @@ class Ui_Supervisor(object):
         self.equipment_management_info_label = QtWidgets.QLabel(self.centralwidget)
         self.equipment_management_info_label.setGeometry(QtCore.QRect(550, 240, 531, 16))
         font = QtGui.QFont()
-        font.setPointSize(10)
+        font.setPointSize(9)
         font.setBold(True)
         font.setWeight(75)
         self.equipment_management_info_label.setFont(font)
@@ -751,7 +751,7 @@ class Ui_Supervisor(object):
         self.equip_search_info_label = QtWidgets.QLabel(self.centralwidget)
         self.equip_search_info_label.setGeometry(QtCore.QRect(5, 240, 521, 16))
         font = QtGui.QFont()
-        font.setPointSize(10)
+        font.setPointSize(9)
         font.setBold(True)
         font.setWeight(75)
         self.equip_search_info_label.setFont(font)

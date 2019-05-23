@@ -48,15 +48,32 @@ def create_Database():
                  epitheto_xristi text
                  )""")
     insert_Admin(conn, c)
+    insert_Supervisor(conn, c)
+    insert_User(conn, c)
     return conn
 
 
-#Insert Admin Key to Database function
-def insert_Admin(connection,cursor):
+# Insert Admin Key to Database function
+def insert_Admin(connection, cursor):
     with connection:
         cursor.execute("""INSERT INTO users_info('Username','Password','Email','Phone_Number','First_Name','Last_Name','Access_Level')
-                         VALUES ('admin','paxidis','admin@gmail.com',6975837283,'onoma','epitheto',2)
+                         VALUES ('admin','admin1234','admin@gmail.com',2510462147,'Onoma','Epitheto',2)
                          """)
 
+
+# Insert User Key to Database function
+def insert_User(connection, cursor):
+    with connection:
+        cursor.execute("""INSERT INTO users_info('Username','Password','Email','Phone_Number','First_Name','Last_Name','Access_Level')
+                         VALUES ('user','user1234','user@gmail.com',2510462147,'User','User',0)
+                         """)
+
+
+# Insert Supervisor Key to Database function
+def insert_Supervisor(connection, cursor):
+    with connection:
+        cursor.execute("""INSERT INTO users_info('Username','Password','Email','Phone_Number','First_Name','Last_Name','Access_Level')
+                         VALUES ('supervisor','super1234','super@gmail.com',2510462147,'Superv','Superv',1)
+                         """)
 
 

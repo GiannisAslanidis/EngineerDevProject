@@ -481,11 +481,11 @@ class Ui_User(object):
         self.equipment_search_button = QtWidgets.QPushButton(self.centralwidget)
         self.equipment_search_button.setGeometry(QtCore.QRect(10, 210, 181, 31))
         font = QtGui.QFont()
-        font.setPointSize(10)
+        font.setPointSize(9)
         self.equipment_search_button.setFont(font)
         self.equipment_search_button.setObjectName("equipment_search_button")
         self.equip_search_info_label = QtWidgets.QLabel(self.centralwidget)
-        self.equip_search_info_label.setGeometry(QtCore.QRect(570, 70, 521, 16))
+        self.equip_search_info_label.setGeometry(QtCore.QRect(540, 70, 531, 16))
         font = QtGui.QFont()
         font.setFamily("Myriad Pro Light")
         font.setPointSize(9)
@@ -496,7 +496,7 @@ class Ui_User(object):
         self.equipment_search_button_2 = QtWidgets.QPushButton(self.centralwidget)
         self.equipment_search_button_2.setGeometry(QtCore.QRect(270, 210, 181, 31))
         font = QtGui.QFont()
-        font.setPointSize(10)
+        font.setPointSize(9)
         self.equipment_search_button_2.setFont(font)
         self.equipment_search_button_2.setObjectName("equipment_search_button_2")
         self.search_access_ids_label = QtWidgets.QLabel(self.centralwidget)
@@ -526,7 +526,7 @@ class Ui_User(object):
         self.access_ids_string_label.setWordWrap(False)
         self.access_ids_string_label.setObjectName("access_ids_string_label")
         self.label = QtWidgets.QLabel(self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(570, 160, 481, 51))
+        self.label.setGeometry(QtCore.QRect(540, 160, 520, 51))
         font = QtGui.QFont()
         font.setFamily("Myriad Pro Light")
         font.setPointSize(9)
@@ -632,13 +632,11 @@ class Ui_User(object):
         self.equipment_search_button.setText(_translate("User", "Αναζήτηση Υλικού"))
         self.equipment_search_button.clicked.connect(self.search_for_equipment)
         self.equipment_search_button_2.clicked.connect(self.load_equipment_data)
-        self.equip_search_info_label.setText(_translate("User", "Για αναζήτηση εισάγετε κάποια πληροφορία στα διπλανά πλαίσια."))
+        self.equip_search_info_label.setText(_translate("User", "Για αναζήτηση εισάγετε κάποια πληροφορία στα δίπλα πλαίσια."))
         self.equipment_search_button_2.setText(_translate("User", "Επαναφόρτωση"))
         self.search_access_ids_label.setText(_translate("User", "Χώροι Πρόσβασης:"))
-        self.label.setText(_translate("User", "Ως απλός χρήστης έχετε πρόσβαση μόνο σε λειτουργία αναζήτησης,σύμφωνα \n"
+        self.label.setText(_translate("User", "Ως απλός χρήστης έχετε πρόσβαση μόνο σε λειτουργία αναζήτησης,\nσύμφωνα "
 "με τα δικαιώματα χώρων που σας έχουν δωθεί."))
-
-
 
 
 if __name__ == "__main__":
