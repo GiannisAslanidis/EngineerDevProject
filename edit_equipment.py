@@ -431,7 +431,7 @@ if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     add_equipment = QtWidgets.QMainWindow()
     ui = Ui_edit_equipment()
-    ui.load_item_data()
+    #ui.load_item_data()
     ui.setupUi(add_equipment)
     add_equipment.show()
     sys.exit(app.exec_())

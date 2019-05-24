@@ -2,32 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e30561ce-dfd4-4d5c-b4d6-f76785663048" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/EngineerDevProject-application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EngineerDevProject-application.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add_equipment.py" beforeDir="false" afterPath="$PROJECT_DIR$/add_equipment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add_material.py" beforeDir="false" afterPath="$PROJECT_DIR$/add_material.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_database.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/edit_equipment.py" beforeDir="false" afterPath="$PROJECT_DIR$/edit_equipment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edit_material.py" beforeDir="false" afterPath="$PROJECT_DIR$/edit_material.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loan_equip.py" beforeDir="false" afterPath="$PROJECT_DIR$/loan_equip.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/login_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqlite/application_database.db" beforeDir="false" afterPath="$PROJECT_DIR$/sqlite/application_database.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/supervisor_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/supervisor_window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/add_equipment.ui" beforeDir="false" afterPath="$PROJECT_DIR$/ui/add_equipment.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/add_material.ui" beforeDir="false" afterPath="$PROJECT_DIR$/ui/add_material.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/admin_window.ui" beforeDir="false" afterPath="$PROJECT_DIR$/ui/admin_window.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/edit_equipment.ui" beforeDir="false" afterPath="$PROJECT_DIR$/ui/edit_equipment.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/edit_material.ui" beforeDir="false" afterPath="$PROJECT_DIR$/ui/edit_material.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/loan_equip.ui" beforeDir="false" afterPath="$PROJECT_DIR$/ui/loan_equip.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/login_window.ui" beforeDir="false" afterPath="$PROJECT_DIR$/ui/login_window.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/supervisor_window.ui" beforeDir="false" afterPath="$PROJECT_DIR$/ui/supervisor_window.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/user_window.ui" beforeDir="false" afterPath="$PROJECT_DIR$/ui/user_window.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_window.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,11 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin_window.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15520">
-              <caret line="776" selection-start-line="776" selection-end-line="800" />
+            <state relative-caret-position="157">
+              <caret line="1672" column="87" lean-forward="true" selection-start-line="1672" selection-start-column="87" selection-end-line="1672" selection-end-column="87" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -80,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/supervisor_window.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15060">
-              <caret line="753" column="27" selection-start-line="753" selection-start-column="27" selection-end-line="753" selection-end-column="27" />
+            <state relative-caret-position="175">
+              <caret line="687" column="42" lean-forward="true" selection-start-line="687" selection-start-column="42" selection-end-line="687" selection-end-column="42" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -89,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user_window.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
@@ -102,9 +81,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/edit_equipment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="433" column="5" selection-start-line="433" selection-start-column="5" selection-end-line="433" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/edit_material.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4319">
+              <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loan_equip.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="143" column="28" lean-forward="true" selection-start-line="143" selection-start-column="28" selection-end-line="143" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login_window.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2820">
+            <state relative-caret-position="535">
               <caret line="141" column="23" selection-start-line="141" selection-start-column="23" selection-end-line="141" selection-end-column="23" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
@@ -144,14 +159,14 @@
         <option value="$PROJECT_DIR$/add_equipment.py" />
         <option value="$PROJECT_DIR$/update_material.py" />
         <option value="$PROJECT_DIR$/edit_material.py" />
-        <option value="$PROJECT_DIR$/edit_equipment.py" />
-        <option value="$PROJECT_DIR$/loan_equip.py" />
-        <option value="$PROJECT_DIR$/admin_window.py" />
         <option value="$PROJECT_DIR$/super_window.py" />
         <option value="$PROJECT_DIR$/login_window.py" />
         <option value="$PROJECT_DIR$/create_database.py" />
-        <option value="$PROJECT_DIR$/supervisor_window.py" />
         <option value="$PROJECT_DIR$/user_window.py" />
+        <option value="$PROJECT_DIR$/edit_equipment.py" />
+        <option value="$PROJECT_DIR$/loan_equip.py" />
+        <option value="$PROJECT_DIR$/admin_window.py" />
+        <option value="$PROJECT_DIR$/supervisor_window.py" />
       </list>
     </option>
   </component>
@@ -168,7 +183,17 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="EngineerDevProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EngineerDevProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -205,6 +230,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/admin_window.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="edit_equipment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EngineerDevProject-application" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/edit_equipment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="edit_material" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EngineerDevProject-application" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/edit_material.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -257,56 +326,12 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="supervisor_window" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="EngineerDevProject-application" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/supervisor_window.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="user_window" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="EngineerDevProject-application" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user_window.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.login_window" />
-        <item itemvalue="Python.supervisor_window" />
         <item itemvalue="Python.admin_window" />
-        <item itemvalue="Python.user_window" />
+        <item itemvalue="Python.edit_material" />
+        <item itemvalue="Python.edit_equipment" />
         <item itemvalue="Python.loan_equip" />
       </list>
     </recent_temporary>
@@ -346,17 +371,20 @@
       <workItem from="1558599015218" duration="4268000" />
       <workItem from="1558604221966" duration="64000" />
       <workItem from="1558604328975" duration="27000" />
+      <workItem from="1558604810498" duration="41000" />
+      <workItem from="1558604927913" duration="14000" />
+      <workItem from="1558697768860" duration="1583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90830000" />
+    <option name="totallyTimeSpent" value="92468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3295302" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34362417" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -384,17 +412,21 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/EngineerDevProject_stableui$admin_window.coverage" NAME="admin_window Coverage Results" MODIFIED="1555411670462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/EngineerDevProject_application$login_window_sqlite.coverage" NAME="login_window_sqlite Coverage Results" MODIFIED="1554891254836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/EngineerDevProject$loan_equip.coverage" NAME="loan_equip Coverage Results" MODIFIED="1558697929152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/EngineerDevProject_current$login_window.coverage" NAME="login_window Coverage Results" MODIFIED="1558604258930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/EngineerDevProject$login_window.coverage" NAME="login_window Coverage Results" MODIFIED="1558604331890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/EngineerDevProject$login_window.coverage" NAME="login_window Coverage Results" MODIFIED="1558698735187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/EngineerDevProject_application$admin_window.coverage" NAME="admin_window Coverage Results" MODIFIED="1554891977292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/EngineerDevProject_application$login_window.coverage" NAME="login_window Coverage Results" MODIFIED="1554893022517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/EngineerDevProject_stableui$edit_equipment.coverage" NAME="edit_equipment Coverage Results" MODIFIED="1555357634008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/EngineerDevProject_current$admin_window.coverage" NAME="admin_window Coverage Results" MODIFIED="1558602917251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/EngineerDevProject$edit_material.coverage" NAME="edit_material Coverage Results" MODIFIED="1558697963849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/EngineerDevProject_stableui$login_window.coverage" NAME="login_window Coverage Results" MODIFIED="1555357083499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/EngineerDevProject_current$user_window.coverage" NAME="user_window Coverage Results" MODIFIED="1558602848873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/EngineerDevProject_current$supervisor_window.coverage" NAME="supervisor_window Coverage Results" MODIFIED="1558602925135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/EngineerDevProject_stableui$admin_window.coverage" NAME="admin_window Coverage Results" MODIFIED="1555411670462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/EngineerDevProject$edit_equipment.coverage" NAME="edit_equipment Coverage Results" MODIFIED="1558697959992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/EngineerDevProject$admin_window.coverage" NAME="admin_window Coverage Results" MODIFIED="1558698469928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/EngineerDevProject_stableui$edit_equipment.coverage" NAME="edit_equipment Coverage Results" MODIFIED="1555357634008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Downloads/EngineerDevProject-application/admin_window.py" />
@@ -403,16 +435,6 @@
     <entry file="file://$USER_HOME$/login_window_sqlite.py" />
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1055577769/PyQt5/QtWidgets/QTableWidget.py" />
     <entry file="file://$PROJECT_DIR$/update_material.py" />
-    <entry file="file://$PROJECT_DIR$/edit_equipment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5100">
-          <caret line="339" column="48" selection-start-line="339" selection-start-column="48" selection-end-line="339" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/add_material.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -433,57 +455,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edit_material.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-644">
-          <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loan_equip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="66" column="86" lean-forward="true" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="86" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/super_window.py" />
-    <entry file="file://$PROJECT_DIR$/admin_window.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15520">
-          <caret line="776" selection-start-line="776" selection-end-line="800" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supervisor_window.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15060">
-          <caret line="753" column="27" selection-start-line="753" selection-start-column="27" selection-end-line="753" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login_window.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2820">
-          <caret line="141" column="23" selection-start-line="141" selection-start-column="23" selection-end-line="141" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/create_database.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1120">
@@ -495,6 +467,66 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="631" column="9" selection-start-line="631" selection-start-column="9" selection-end-line="631" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit_equipment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="433" column="5" selection-start-line="433" selection-start-column="5" selection-end-line="433" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit_material.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4319">
+          <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loan_equip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="143" column="28" lean-forward="true" selection-start-line="143" selection-start-column="28" selection-end-line="143" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supervisor_window.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="687" column="42" lean-forward="true" selection-start-line="687" selection-start-column="42" selection-end-line="687" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login_window.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="141" column="23" selection-start-line="141" selection-start-column="23" selection-end-line="141" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin_window.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="1672" column="87" lean-forward="true" selection-start-line="1672" selection-start-column="87" selection-end-line="1672" selection-end-column="87" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>

@@ -683,7 +683,7 @@ class Ui_Supervisor(object):
         self.search_access_ids_label.setFont(font)
         self.search_access_ids_label.setObjectName("search_access_ids_label")
         self.access_ids_string_label = QtWidgets.QLabel(self.centralwidget)
-        self.access_ids_string_label.setGeometry(QtCore.QRect(320, 560, 141, 141))
+        self.access_ids_string_label.setGeometry(QtCore.QRect(320, 560, 200, 141))
         font = QtGui.QFont()
         font.setFamily("Myriad Pro Light")
         font.setPointSize(10)
